@@ -1,10 +1,10 @@
 # entrada
-VENDEDOR=input("")
-SALARIO=float(input(""))
-VENDAS=float(input(""))
+NOME = input("")
+SAL  = float(input(""))
+VEND = float(input(""))
 
 # processamento
-SALARIO_FINAL = SALARIO + VENDAS * 0.15 # ou VENDAS * 15 / 100
+TOTAL = SAL + VEND * 0.15
 
 # saida
-print("TOTAL = R$ %.2f" % SALARIO_FINAL)
+print("TOTAL = R$ %.2f" % TOTAL)

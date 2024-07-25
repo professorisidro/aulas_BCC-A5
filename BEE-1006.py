@@ -1,9 +1,10 @@
 # entrada
-# ler as 3 notas A, B, C
-A = float(input(""))
-B = float(input(""))
-C = float(input(""))
+N1 = float(input(""))
+N2 = float(input(""))
+N3 = float(input(""))
+
 # processamento
-MEDIA = (A*2 + B * 3 + C * 5)/10
+MEDIA = (N1 * 2 + N2 * 3 + N3 * 5)/10
+
 # saida
 print("MEDIA = %.1f" % MEDIA)
